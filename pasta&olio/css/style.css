@@ -9764,7 +9764,8 @@ textarea.form-control {
 .customahover a:active {
   border-bottom: 3px solid whitesmoke;
 }
-
+.ftco-bg-grey {
+  background: #4c4c4b; }
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
