@@ -1622,19 +1622,19 @@ pre {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   .form-control::-webkit-input-placeholder {
-    color: #6c757d;
+    color: #ffffff;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: #ffffff;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: #6c757d;
+    color: #ffffff;
     opacity: 1; }
   .form-control::placeholder {
-    color: #6c757d;
+    color: #ffffff;/*aqui placeholder*/
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
-    background-color: #e9ecef;
+    background-color: #727577;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
@@ -8190,7 +8190,7 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000000 !important;
-      position: relative;
+      position: absolute;
       top: 0;
       padding: 10px 15px; } }
   .ftco-navbar-light .navbar-brand {
@@ -9044,8 +9044,8 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 52px !important;
-  background: #fff !important;
-  color: #000000 !important;
+  background: rgb(0, 0, 0) !important;
+  color: #ffffff !important;
   font-size: 16px;
   border-radius: 0px;
   -webkit-box-shadow: none !important;
@@ -9141,16 +9141,16 @@ textarea.form-control {
       font-size: 16px; }
       .ftco-footer .subscribe-form .form-group input::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
-        color: rgba(255, 255, 255, 0.7) !important; }
+        color: rgb(255, 255, 255) !important; }
       .ftco-footer .subscribe-form .form-group input::-moz-placeholder {
         /* Firefox 19+ */
         color: rgba(255, 255, 255, 0.7) !important; }
       .ftco-footer .subscribe-form .form-group input:-ms-input-placeholder {
         /* IE 0+ */
-        color: rgba(255, 255, 255, 0.7) !important; }
+        color: rgb(255, 255, 255) !important; }
       .ftco-footer .subscribe-form .form-group input:-moz-placeholder {
         /* Firefox 18- */
-        color: rgba(255, 255, 255, 0.7) !important; }
+        color: rgb(255, 255, 255) !important; }
     .ftco-footer .subscribe-form .form-group .submit {
       color: #fff !important;
       font-size: 16px;
@@ -9625,16 +9625,16 @@ textarea.form-control {
     border-radius: 0; }
     .subscribe-form .form-group input::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: rgba(255, 255, 255, 0.7) !important; }
+      color: rgb(255, 255, 255) !important; }
     .subscribe-form .form-group input::-moz-placeholder {
       /* Firefox 19+ */
-      color: rgba(255, 255, 255, 0.7) !important; }
+      color: rgb(255, 255, 255) !important; }
     .subscribe-form .form-group input:-ms-input-placeholder {
       /* IE 10+ */
-      color: rgba(255, 255, 255, 0.7) !important; }
+      color: rgb(255, 255, 255) !important; }
     .subscribe-form .form-group input:-moz-placeholder {
       /* Firefox 18- */
-      color: rgba(255, 255, 255, 0.7) !important; }
+      color: rgb(255, 255, 255) !important; }
   .subscribe-form .form-group .form-control {
     border: 1px solid rgba(255, 255, 255, 0.4); }
   .subscribe-form .form-group .submit {
