@@ -8185,7 +8185,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (min-width: 992px) {
     .ftco-navbar-light {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
       padding-bottom: 10px; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
@@ -9758,6 +9758,12 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 /* custom*/
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 300px; /* only if you want fixed height */
+  }
+
 .customahover a:hover {
   border-bottom: 3px solid #777360;
 }
